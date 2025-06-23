@@ -1,0 +1,17 @@
+{
+  "name": "curri-travel-website",
+  "version": "1.0.0",
+  "description": "Boat rental website for Koman Lake and Shala River tours in Albania",
+  "main": "index.html",
+  "scripts": {
+    "dev": "echo 'Static HTML website - open index.html in browser'",
+    "build": "echo 'No build process needed for static site'",
+    "start": "echo 'Static HTML website ready for deployment'"
+  },
+  "keywords": ["boat", "travel", "albania", "koman", "shala", "tourism"],
+  "author": "Curri Travel",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+} 

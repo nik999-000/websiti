@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/forms/contact.php",
+      "dest": "/api/contact"
+    },
+    {
+      "src": "/forms/newsletter.php", 
+      "dest": "/api/newsletter"
+    }
+  ]
+} 
